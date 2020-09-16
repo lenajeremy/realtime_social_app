@@ -1,0 +1,29 @@
+{
+  "name": "realtime_social_app",
+  "version": "0.0.1",
+  "description": "A realtime social application that makes use of webSockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremiahjacinth13/realtime_social_app.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "react",
+    "socket.io"
+  ],
+  "author": "Jeremiah Lena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeremiahjacinth13/realtime_social_app/issues"
+  },
+  "homepage": "https://github.com/Jeremiahjacinth13/realtime_social_app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
