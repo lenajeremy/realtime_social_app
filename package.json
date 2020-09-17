@@ -4,7 +4,9 @@
   "description": "A realtime social application that makes use of webSockets",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "devstart": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
