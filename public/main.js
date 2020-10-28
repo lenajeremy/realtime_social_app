@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
   
   socket.on('message', message => addNewMessage(message));
   socket.on('showtyping', stuff => document.querySelector('.typing').classList.add('active'));
-  socket.on('showdonetyping', stuff => docu)
   const $form = document.querySelector('form');
   
   $form.addEventListener('submit', e => {
